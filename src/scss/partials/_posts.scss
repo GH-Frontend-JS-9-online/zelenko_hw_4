@@ -1,0 +1,38 @@
+.posts {
+    min-height: 620px;
+    font-size: 13px;
+    font-family: $mainFont;
+    color: $primary-color;
+
+    .container {
+        border-bottom: 1px solid #f4f4f4;
+        padding-bottom: 70px;
+    }
+
+    .post-item {
+        max-width: 336px;
+        min-width: 280px;
+        width: 100%;
+        margin-top: 79px;
+    }
+    
+    .post-top-title {
+        margin-bottom: 58px;
+        color: $neutral-secondary;
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    .primary-post-title, .secondary-post-title {
+        font-size: 16px;
+        margin: 10px 0 20px;
+    }
+
+    .primary-post-title {
+        color: $neutral-regular;
+    }
+
+    .secondary-post-title  {
+        color: $accent-color;
+    }
+}

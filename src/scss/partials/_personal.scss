@@ -1,0 +1,65 @@
+.personal {
+    padding: 87px 0 79px;
+    text-align: center;
+    font-family: $mainFont;
+
+    .personal-header {
+        justify-content: center;
+        margin-bottom: 42px;
+        text-align: left;
+    }
+
+    .info {
+        margin: 21px 0 0 23px;
+    }
+
+    .name {
+        color: $secondary-color;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .position {
+        margin-top: 7px;
+        color: $accent-color;
+        font-size: 16px;
+    }
+
+    .list-buttons {
+        max-width: 800px;
+        margin: auto;
+    }
+
+    .personal-content {
+        max-width: 720px;
+        margin: auto;
+        font: 400 20px/32px $primaryFont;
+        &::after {
+            display: block;
+            content: '';
+            margin-top: 54px;
+            max-width: 780px;
+            height: 1px;
+            background-color: #f4f4f4;
+        }
+    }
+
+    .personal-comment span {
+        color: $accent-color;
+    }
+
+    .follower, .post-time {
+        display: block;
+        margin-top: 18px;
+        color: $primary-color;
+        font-size: $mainFont;
+    }
+
+    .post-time {
+        font-size: 16px;
+    }
+
+    .list-buttons li {
+        margin-top: 60px;
+    };
+}

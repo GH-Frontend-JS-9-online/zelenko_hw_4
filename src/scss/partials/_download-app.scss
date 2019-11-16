@@ -1,0 +1,40 @@
+//Download app
+.download-app {
+    width: 100%;
+    min-height: 391px;
+    text-align: center;
+    font-weight: 400;
+
+    .d-load-cotainer {
+        position: relative;
+        bottom: 33px;
+        height: 96px;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+
+    .trial-period {
+        color: $neutral-secondary;
+        font-size: 14px;
+    }
+    
+    .content {
+        max-width: 878px;
+        margin: auto;
+    }
+
+    .title {
+        color: $secondary-color;
+        font-size: rem(54);
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    p {
+        margin: 26px 0 36px;
+        color: $neutral-regular;
+        font-family: $primaryFont;;
+        font-size: 21px;
+        line-height: 32px;
+    }
+}

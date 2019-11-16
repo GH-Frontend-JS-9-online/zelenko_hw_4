@@ -1,0 +1,45 @@
+.about-fork {
+  min-height: 764px;
+  padding: 98px 10px 49px 10px;
+  background: url(./../img/about-fork-bg.png) bottom center no-repeat;
+  background-size: cover;
+  text-align: center;
+  &::after {
+    display: block;
+    content: "";
+    margin-bottom: 49px;
+    max-width: 780px;
+    height: 1px;
+    margin: auto;
+    background-color: #c7c7c7;
+    opacity: 0.2;
+  }
+}
+
+.about-fork-container {
+  margin-bottom: 98px;
+  .about-fork-item {
+    margin-top: 83px;
+    max-width: 326px;
+    flex-wrap: wrap;
+    height: 152px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+  }
+
+  .h-align {
+    margin-bottom: 23px;
+  }
+
+  p {
+    color: $default-color;
+    font: 400 16px/24px $primaryFont;
+    font-style: italic;
+  }
+
+  .img-container {
+    width: 100%;
+    height: 64px;
+  }
+}

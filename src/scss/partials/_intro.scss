@@ -1,0 +1,25 @@
+//intro
+.intro {
+    padding: rem(104) 10px;
+    width: 100%;
+    min-height: 900px;
+    background: url(./../img/intro.png) center no-repeat;
+    background-size: cover;
+    text-align: center;
+    .title {
+        color: $default-color;
+        font: 700 rem(82) $mainFont;
+    }
+
+    .subtitle {
+        margin: 10px 0;
+        color: $accent-color;
+        font: 400 rem(30) $secondaryFont;
+    }
+
+    span {
+        color: $neutral-secondary;
+        font: 400 rem(16) $mainFont;
+        text-transform: uppercase;
+    }
+}

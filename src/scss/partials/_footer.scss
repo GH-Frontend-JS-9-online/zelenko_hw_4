@@ -1,0 +1,45 @@
+.footer {
+    color: $primary-color;
+    font-family: $mainFont;
+    font-size: 14px;
+    line-height: 23px;
+    padding-bottom: 100px;
+
+    .container {
+        flex-wrap: nowrap;
+
+    }
+
+    .logo {
+        margin-bottom: 18px;
+    }
+
+    .nav-item-link {
+        color: $accent-color;
+    }
+
+    .number-phone {
+        margin-bottom: 12px;
+        display: block;
+        font-size: 30px;
+        font-weight: 700;
+        color: #3f3f3f;
+    }
+
+    .work-time {
+        display: block;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .footer-list-item {
+        max-width: 253px;
+        margin-top: 65px;
+    }
+    
+    .footer-primary-title {
+        color: $neutral-regular;
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+}

@@ -1,0 +1,24 @@
+.subscribe-news {
+    width: 100%;
+    background-color: #f4f4f4;
+
+    .subscribe-form {
+        max-width: 495px;
+        min-width: 280px;
+        width: 100%;
+    }
+
+    .container {
+        min-height: 134px;
+        align-items: center;
+    }
+
+    .title {
+        color: $secondary-color;
+        font: 700 30px $mainFont;
+    }
+
+    .form-input-container {
+        width: 335px;
+    }
+}

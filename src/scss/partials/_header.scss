@@ -1,0 +1,32 @@
+//Header
+.header {
+    width: 100%;
+    min-width: 104px;
+}
+
+.close-btn {display: none;}
+.header-nav-container {
+	min-height: 95px;
+	padding: 0 20px;
+	align-items: center;
+}
+
+.overlay__content {
+	display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    .nav-link-item {
+        padding: 5px 20px;
+        color: $secondary-color;
+        font: 600 16px/38px $mainFont;
+        cursor: pointer;
+        &:hover {text-decoration: none;}
+    }
+
+    .nav-active-link {
+        width: 145px;
+        background-color: $accent-color;
+        color: $default-color;
+        border-radius: 30px;
+    }
+}

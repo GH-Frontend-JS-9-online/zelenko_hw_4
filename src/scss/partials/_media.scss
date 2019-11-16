@@ -1,0 +1,251 @@
+//mobile menu
+@media only screen and (max-width: 870px) {
+  // bg settings mobile window
+  .overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 0%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.95);
+    overflow-x: hidden;
+    z-index: 5;
+    transition: all 0.7s; //anim open window
+    a {
+      display: block;
+      padding: 10px;
+      color: #ccc;
+      font-size: 30px;
+      text-decoration: none;
+      &:hover,
+      &:focus {
+        color: #fff;
+        transition: all 0.5s ease-in-out 0.1s;
+      }
+    }
+    //position close button
+    .close-btn {
+      position: absolute;
+      top: 50px;
+      right: 7px;
+      font-size: 50px;
+    }
+  }
+  //position mobile menu
+  .overlay__content {
+    flex-flow: column nowrap;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    li {
+      padding: 10px 0;
+    }
+  }
+  #open-btn-nav {
+    display: block;
+    padding: 7px;
+    width: 35px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    .line {
+      display: block;
+      width: 20px;
+      height: 3px;
+      background: #000;
+    }
+    .line:nth-child(2) {
+      margin: 3px 0;
+    }
+  }
+}
+
+//our-possibilities
+@media only screen and (max-width: 1150px) {
+  .our-possibilities {
+    .code-example-title {
+      font-size: 42px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1089px) {
+  .download-app {
+    .title {
+      font-size: 32px;
+    }
+
+    .git-btn {
+      margin-bottom: 50px;
+    }
+  }
+
+  .our-possibilities {
+    min-height: 1150px;
+    padding: 44px 0 49px;
+    .code-example figure {
+      display: none;
+    }
+
+    .content-container {
+      display: flex;
+      flex-flow: column wrap;
+    }
+
+    .wrapper {
+      padding: 0 10px;
+      flex-flow: column-reverse nowrap;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .code-example-title {
+      margin-bottom: 50px;
+      text-align: center;
+    }
+
+    .content-item-container {
+      max-width: 480px;
+      flex-flow: column wrap;
+      text-align: center;
+    }
+
+    .img-container {
+      margin: 0 auto 25px;
+    }
+
+    .content-item {
+      max-width: 350px;
+      margin-left: 0;
+    }
+
+    .code-example-title {
+      font-size: 33px;
+    }
+
+    .code-example-title,
+    .content-container,
+    .code-example {
+      margin-left: 0;
+      max-width: 366px;
+      min-width: 250px;
+      width: 100%;
+    }
+  }
+
+  .post-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .post-btn {
+    margin: auto;
+  }
+
+  .subscription-pricing {
+    .pricing-list {
+      max-width: 550px;
+      margin: 30px auto;
+    }
+  }
+
+
+}
+
+@media only screen and (max-width: 1017px) {
+  .about-fork {
+    .primary-title {
+      font-size: 36px;
+    }
+
+    .about-fork-container {
+      justify-content: space-around;
+    }
+  }
+
+  .subscribe-news  {
+    padding: 25px 0;
+    .container {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .title {
+      text-align: center;
+    }
+  }
+
+  .subscribe-form {
+    .flex-container {
+      max-width: 320px;
+      flex-direction: column;
+      align-items: center;
+      margin: 30px auto;
+    }
+  }
+  
+
+  .subscribe-form-input {
+    padding-left: 0;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 790px) {
+  .our-possibilities {
+    .code-example-title {
+      font-size: 22px;
+      text-align: center;
+    }
+  }
+
+  .list-buttons {
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+
+  .about-fork-container  {
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+
+
+  .subscribe-news {
+    .form-input-container {
+      width: 300px;
+    }
+  }
+
+  .subscription-pricing {
+    .primary-title {
+      font-size: 36px;
+    }
+  }
+
+  .footer {
+    .container {
+      max-width: 550px;
+      margin: auto;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .footer-list-item {
+      width: 253px;
+      text-align: center;
+    }
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .subscription-pricing {
+    .pricing-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+
+}

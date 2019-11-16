@@ -1,1 +1,5 @@
-# zelenko_hw_4
+# install package
+npm i 
+
+#start server 
+gulp

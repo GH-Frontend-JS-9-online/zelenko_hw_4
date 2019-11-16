@@ -1,0 +1,79 @@
+//Buttons
+.download-app-btn {
+  max-width: 390px;
+  width: 100%;
+  background-color: $accent-color;
+  border-radius: 35px;
+  color: $default-color;
+  font: 700 21px/62px $mainFont;
+  cursor: pointer;
+  &:hover {
+    background-color: $border-lightex;
+    color: $accent-color;
+    transition: ease-in-out 0.7s;
+  }
+}
+
+.subscription-pricing-btn {
+  width: 160px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font: 400 15px/42px "Montserrat", sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.subscribe-form-btn {
+  width: 140px;
+  background-color: $accent-color;
+  color: $default-color;
+  font: 400 13px/42px $mainFont;
+  text-transform: uppercase;
+  border-radius: 35px;
+  cursor: pointer;
+  &:hover {
+    background-color: $default-color;
+    color: $accent-color;
+    transition: ease-in-out 0.7s;
+  }
+}
+
+.post-btn {
+  display: block;
+  margin-top: 36px;
+  padding: 0 7px 0 24px;
+  background-color: #f4f4f4;
+  color: $accent-color;
+  line-height: 35px;
+  cursor: pointer;
+  &:hover {
+    background-color: $accent-color;
+    color: $default-color;
+    transition: ease-in-out 0.7s;
+  }
+}
+
+.personal-btn {
+  display: block;
+  width: 240px;
+  border-radius: 5px;
+  color: $default-color;
+  font: 400 21px/50px $mainFont;
+}
+
+.personal-github-btn {
+  background-color: #f3f3f3;
+  color: #000;
+}
+
+.personal-twitter-btn {
+  background-color: #26a6d1;
+}
+
+.personal-facebook-btn {
+  background-color: #3b5998;
+}

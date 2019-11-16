@@ -1,0 +1,95 @@
+.our-possibilities {
+  width: 100%;
+  height: 711px;
+  padding: 84px 0 69px;
+  font-family: $mainFont;
+  background-color: $our-possibilities-bg;
+
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 45%;
+  }
+
+  .wrapper {
+    display: flex;
+  }
+
+  .content-item-container {
+    max-width: 480px;
+    flex-wrap: nowrap;
+  }
+
+  .content-item {
+    max-width: 350px;
+    margin-left: 23px;
+  }
+
+  .img-container {
+    width: 101px;
+    justify-content: center;
+  }
+
+  .content-icon {
+    display: block;
+    content: "";
+  }
+
+  .icon-1 {
+    width: 111px;
+    height: 64px;
+    background-image: url(./../img/opportunities-icon-1.png);
+  }
+
+  .icon-2 {
+    width: 90px;
+    height: 80px;
+    background-image: url(./../img/opportunities-icon-2.png);
+  }
+
+  .icon-3 {
+    width: 60px;
+    height: 84px;
+    background-image: url(./../img/opportunities-icon-3.png);
+  }
+
+  .icon-4 {
+    width: 71px;
+    height: 71px;
+    background-image: url(./../img/opportunities-icon-4.png);
+  }
+
+  .content-title {
+    color: $neutral-regular;
+    font-size: 16px;
+  }
+
+  p {
+    margin-bottom: 33px;
+    color: $neutral-secondary;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .code-example {
+    width: 60%;
+    margin-left: 69px;
+  }
+
+  .code-example figure {
+    display: block;
+    width: 100%;
+    height: 580px;
+    margin-top: 50px;
+    background-image: url(./../img/editro-code.png);
+    background-size: cover;
+    border-radius: 30px;
+  }
+
+  .code-example-title {
+    color: $accent-color;
+    font-size: rem(48px);
+    font-weight: 700;
+  }
+}

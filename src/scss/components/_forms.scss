@@ -1,0 +1,15 @@
+//Forms
+.subscribe-form {
+    max-width: 500px;
+}
+
+.subscribe-form-input {
+    max-width: 335px;
+    min-width: 250px;
+    width: 100%;
+    padding-left: 28px;
+    color: #c8cbcf;
+    font: 400 14px/42px $mainFont;
+    background-color: $default-color;
+    border-radius: 35px;
+}

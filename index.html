@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css"
+    />
+    <link rel="stylesheet" href="build/css/style.css" />
+    <title>Page Title</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header-nav-container flex-container container">
+        <h1 class="logo">
+          <a href="#">
+            <img src="./build/img/logo.png" alt="Logotype" />
+          </a>
+        </h1>
+        <nav class="top-nav">
+          <a href="#" class="open-btn" id="open-btn-nav" onclick="openNav()">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </a>
+          <div id="nav" class="overlay">
+            <a href="#" class="close-btn" onclick="closeNav()">&times;</a>
+            <ul class="overlay__content">
+              <li><a href="#" class="nav-link-item">Overview</a></li>
+              <li><a href="#" class="nav-link-item">About Fork</a></li>
+              <li><a href="#" class="nav-link-item">Buying</a></li>
+              <li><a href="#" class="nav-link-item">Options</a></li>
+              <li><a href="#" class="nav-link-item">Support</a></li>
+              <li>
+                <a href="#" class="nav-link-item nav-active-link">Buy Now</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="intro">
+        <div class="container">
+          <h2 class="title">Fork App</h2>
+          <h3 class="subtitle">
+            A real gamechanger in the world of web development
+          </h3>
+          <span>v. 2.8 For Mac and Windows</span>
+        </div>
+      </section>
+
+      <section class="download-app">
+        <div class="container">
+          <div class="d-load-cotainer flex-container">
+            <button class="download-app-btn">Download For Free Now</button>
+            <span class="trial-period">Unlimited 30-Days Trial Period</span>
+          </div>
+          <div class="content">
+            <h2 class="title">Revolutionary editor</h2>
+            <p>
+              Aenean cursus imperdiet nisl id fermentum. Aliquam pharetra dui
+              laoreet vulputate dignissim. Sed id metus id quam auctor molestie
+              eget ut augue.
+            </p>
+            <a href="#" class="git-btn">
+              <img src="./build/img/github_buttons.png" alt="Github buttons" />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="our-possibilities">
+        <div class="wrapper">
+          <ul class="content-container">
+            <li class="item">
+              <ul class="content-item-container flex-container">
+                <li class="img-container">
+                  <div class="icon-1 content-icon"></div>
+                </li>
+                <li class="content-item">
+                  <h3 class="content-title">Creatred to Make The Web Better</h3>
+                  <p>
+                    Aenean cursus imperdiet nisl id fermentum. Aliquam pharetra
+                    dui laoreet vulputate dignissim. Sed id metus id quam auctor
+                    molestie eget ut augue.
+                  </p>
+                </li>
+              </ul>
+            </li>
+            <li class="item">
+              <ul class="content-item-container flex-container">
+                <li class="img-container flex-container">
+                  <div class="icon-2 content-icon"></div>
+                </li>
+                <li class="content-item">
+                  <h3 class="content-title">Incredibly Powerful Tool</h3>
+                  <p>
+                    Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus
+                    felis odio, ut volutpat massa placerat ac. Curabitur dapibus
+                    iaculis mi gravida luctus. Aliquam erat volutpat.
+                  </p>
+                </li>
+              </ul>
+            </li>
+            <li class="item">
+              <ul class="content-item-container flex-container">
+                <li class="img-container flex-container">
+                  <div class="icon-3 content-icon"></div>
+                </li>
+                <li class="content-item">
+                  <h3 class="content-title">Experimental Stuff</h3>
+                  <p>
+                    Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus
+                    felis odio, ut volutpat massa placerat ac. Curabitur dapibus
+                    iaculis mi gravida luctus. Aliquam erat volutpat.
+                  </p>
+                </li>
+              </ul>
+            </li>
+            <li class="item">
+              <ul class="content-item-container flex-container">
+                <li class="img-container flex-container">
+                  <div class="icon-4 content-icon"></div>
+                </li>
+                <li class="content-item">
+                  <h3 class="content-title">Creatred to Make The Web Better</h3>
+                  <p>
+                    Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus
+                    felis odio, ut volutpat massa placerat ac. Curabitur dapibus
+                    iaculis mi gravida luctus. Aliquam erat volutpat.
+                  </p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <div class="code-example ">
+            <h2 class="code-example-title">&lt;Here is what you get&gt;</h2>
+            <figure></figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="personal">
+        <div class="container">
+          <ul class="personal-header flex-container">
+            <li class="photo">
+              <img src="./build/img/personal-photo.png" alt="personal photo" />
+            </li>
+            <li class="info">
+              <h3 class="name">Steven Strange</h3>
+              <p class="position">@DoctorS</p>
+            </li>
+          </ul>
+          <div class="personal-content">
+            <p class="personal-comment">
+              <span>@Pixelbuddha</span> Suspendisse sodales sem est, in
+              scelerisque felis scelerisque in. Aenean faucibus mollis risus.
+              Praesent sit amet erat eget eros.
+            </p>
+            <span class="post-time">2 hours ago</span>
+          </div>
+          <ul class="list-buttons flex-container">
+            <li>
+              <a href="#" class="personal-github-btn personal-btn">GitHub</a>
+              <span class="follower">7 352 Followers</span>
+            </li>
+            <li>
+              <a href="#" class="personal-twitter-btn personal-btn">Twitter</a>
+              <span class="follower">136 312 Followers</span>
+            </li>
+            <li>
+              <a href="#" class="personal-facebook-btn personal-btn"
+                >Facebook</a
+              >
+              <span class="follower">218 092 Subscribers</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="about-fork">
+        <div class="container">
+          <h2 class="primary-title">People Are Talking About Fork</h2>
+          <ul class="about-fork-container flex-container">
+            <li class="about-fork-item h-align">
+              <figure class="img-container">
+                <img src="./build/img/smashing-logo.png" alt="smashing logo" />
+              </figure>
+              <p>
+                Sed vestibulum scelerisque urna, eu finibus leo facilisis sit
+                amet. Proin id dignissim magna. Sed varius urna et pulvinar
+                venenatis.
+              </p>
+            </li>
+            <li class="about-fork-item h-align">
+              <figure class="img-container">
+                <img src="./build/img/codrops-logo.png" alt="codrops logo" />
+              </figure>
+              <p>
+                Donec euismod dolor ut ultricies consequat. Vivamus urna ipsum,
+                rhoncus molestie neque ac, mollis eleifend nibh.
+              </p>
+            </li>
+            <li class="about-fork-item h-align">
+              <figure class="img-container">
+                <img src="./build/img/w-logo.png" alt="W logo" />
+              </figure>
+              <p>
+                In efficitur in velit et tempus. Duis nec odio dapibus, suscipit
+                erat fringilla, imperdiet nibh. Morbi tempus auctor felis ac
+                vehicula.
+              </p>
+            </li>
+            <li class="about-fork-item">
+              <figure class="img-container">
+                <img src="./build/img/pixel-logo.png" alt="pixel logo" />
+              </figure>
+              <p>
+                Sed vestibulum scelerisque urna, eu finibus leo facilisis sit
+                amet. Proin id dignissim magna. Sed varius urna et pulvinar
+                venenatis.
+              </p>
+            </li>
+            <li class="about-fork-item">
+              <div class="img-container">
+                <img src="./build/img/cb-logo.png" alt="CB logo" />
+              </div>
+              <p>
+                Praesent ut eros tristique, malesuada lectus vel, lobortis
+                massa. Nulla faucibus lorem id arcu consequat faucibus.
+              </p>
+            </li>
+            <li class="about-fork-item">
+              <div class="img-container">
+                <img src="./build/img/tnw-logo.png" alt="TNW logo" />
+              </div>
+              <p>
+                Fusce pharetra erat id odio blandit, nec pharetra eros
+                venenatis. Pellentesque porttitor cursus massa et vestibulum.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+<!-- проблема з шириною, добавляэ горизонтальний скрол -->
+      <section class="subscription-pricing">
+        <h2 class="primary-title">Fork Subscription Pricing</h2>
+        <div class="container">
+          <ul class="pricing-list flex-container">
+            <li class="pricing-list-item">
+              <div class="list-item-header-title">
+                <h3 class="title">Students</h3>
+              </div>
+              <div class="content">
+                <h3 class="price">$29</h3>
+                <h3 class="license-time">per month</h3>
+                <div class="content-container">
+                  <h3 class="type-license">Personal License</h3>
+                  <button class="subscription-pricing-btn">purchase</button>
+                </div>
+              </div>
+            </li>
+            <li class="pricing-list-item">
+              <div class="list-item-header-title">
+                <h3 class="title">professional</h3>
+              </div>
+              <div class="content">
+                <h3 class="price">$59</h3>
+                <h3 class="license-time">per month</h3>
+                <div class="content-container">
+                  <h3 class="type-license">
+                    Professional License Email Support
+                  </h3>
+                  <button class="subscription-pricing-btn">purchase</button>
+                </div>
+              </div>
+            </li>
+            <li class="pricing-list-item">
+              <div class="list-item-header-title">
+                <h3 class="title">agency</h3>
+              </div>
+              <div class="content">
+                <h3 class="price">$99</h3>
+                <h3 class="license-time">per month</h3>
+                <div class="content-container">
+                  <h3 class="type-license">1-12 Team Members Phone Support</h3>
+                  <button class="subscription-pricing-btn">purchase</button>
+                </div>
+              </div>
+            </li>
+            <li class="pricing-list-item">
+              <div class="list-item-header-title">
+                <h3 class="title">enterprise</h3>
+              </div>
+              <div class="content">
+                <h3 class="price">$159</h3>
+                <h3 class="license-time">per month</h3>
+                <div class="content-container">
+                  <h3 class="type-license">
+                    Unlimited Team Members 24/ 7 Phone Support
+                  </h3>
+                  <button class="subscription-pricing-btn">purchase</button>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <footer>
+            <p class="pricing-description">
+              Duis lobortis arcu sed arcu tincidunt feugiat. Nulla nisi mauris,
+              facilisis vitae aliquet id, imperdiet quis nibh. Donec eget elit
+              eu libero tincidunt consequat nec elementum orci. Cum sociis
+              natoque penatibus et magnis dis parturient montes, nascetur
+              ridiculus mus.
+            </p>
+          </footer>
+        </div>
+      </section>
+
+      <section class="subscribe-news">
+        <div class="container flex-container">
+          <h2 class="title">Subscribe To Our Newsletter</h2>
+          <form action="#" class="subscribe-form">
+            <ul class="flex-container ">
+              <li class="form-input-container">
+                <input
+                  type="text"
+                  class="subscribe-form-input"
+                  placeholder="Email..."
+                />
+              </li>
+              <li>
+                <button type="submit" class="subscribe-form-btn">
+                  Subscribe
+                </button>
+              </li>
+            </ul>
+          </form>
+        </div>
+      </section>
+
+      <section class="posts">
+        <ul class="container post-container flex-container">
+          <li class="post-item">
+            <h2 class="post-top-title">New in Release 2.8</h2>
+            <h3 class="primary-post-title">
+              Fully Available: Live Preview Support for Multiple Browsers
+            </h3>
+            <p class="description">
+              Morbi faucibus ante ipsum, a tincidunt libero posuere et. Etiam
+              tempor tortor at odio condimentum, sit amet fringilla ligula
+              maximus. Mauris venenatis nisl nisi, et dictum dui aliquet nec.
+              Sed erat, nec aliquam vel, aliquam ac felis.
+            </p>
+            <h3 class="primary-post-title">Improved Support for Typing</h3>
+            <p class="description">
+              Nulla purus quam, pulvinar sed ante et, feugiat maximus velit.
+              Donec eu elit mauris.
+            </p>
+            <h3 class="primary-post-title">Improved Stability</h3>
+            <p class="description">
+              Proin id ligula eget massa tincidunt molestie. Morbi urna lectus,
+              molestie vel quam vel, iaculis fermentum nunc. Morbi imperdiet,
+              leo in interdum pretium.
+            </p>
+            <button class="post-btn">Go to Release Log</button>
+          </li>
+          <li class="post-item">
+            <h2 class="post-top-title">Popular Extensions</h2>
+            <h3 class="secondary-post-title">Custom Themes 1.1</h3>
+            <p class="description">
+              Etiam viverra vulputate diam, pulvinar cursus augue egestas
+              ullamcorper.
+            </p>
+            <h3 class="secondary-post-title">Filter Forge</h3>
+            <p class="description">
+              Nulla purus quam, pulvinar sed et, feugiat maximus velit.
+            </p>
+
+            <h3 class="secondary-post-title">WebZap</h3>
+            <p class="description">
+              Morbi imperdiet, leo in interdum pretium, elit eros dapibus velit,
+              eu posuere quam diam vitae orci. Suspendisse interdum accumsan
+              magna vitae commodo.
+            </p>
+            <h3 class="secondary-post-title">Renamy</h3>
+            <p class="description">
+              Vivamus consectetur suscipit elit, ut lacinia diam elementum et.
+            </p>
+            <button class="post-btn">Go to Marketplace</button>
+          </li>
+          <li class="post-item">
+            <h2 class="post-top-title">New From the Blog</h2>
+            <h3 class="secondary-post-title">
+              Morbi imperdiet, leo in interdum pretium.
+            </h3>
+            <span>February 18, 2015</span>
+            <h3 class="secondary-post-title">
+              Donec orci ante, porta vel nulla quis, aliquet hendrerit leo.
+            </h3>
+            <span>February 12, 2015</span>
+            <h3 class="secondary-post-title">
+              Suspendisse egestas vulputate luctus.
+            </h3>
+            <span>February 6, 2015</span>
+            <h3 class="secondary-post-title">
+              Quisque varius ante lorem, eget pretium purus hendrerit a egestas.
+            </h3>
+            <span>February 2, 2015</span>
+            <h3 class="secondary-post-title">Phasellus in augue risus.</h3>
+            <span>January 23, 2015</span>
+            <button class="post-btn">Go to Blog</button>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <ul class="container flex-container">
+        <li class="footer-list-item">
+          <h1 class="logo">
+            <a href="#">
+              <img src="./build/img/logo.png" alt="Logo" />
+            </a>
+          </h1>
+          <span
+            >Lorem ipsum dolor sit amet, feugiat delicat liberavisse id cum no
+            quo.</span
+          >
+        </li>
+        <li class="footer-list-item">
+          <h2 class="footer-primary-title">Navigation</h2>
+          <ul class="footer-nav">
+            <li class="nav-item">
+              <a href="#" class="nav-item-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-item-link">Overview</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-item-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-item-link">Buying Options</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-item-link">Support</a>
+            </li>
+          </ul>
+        </li>
+        <li class="footer-list-item">
+          <a href="tel:3475677890" class="number-phone">347 567 78 90</a>
+          <span class="work-time">AVAILABLE FROM 12PM - 18PM</span>
+          <h2 class="footer-primary-title">New York, NY</h2>
+          <span>560 Judah St & 15th Ave, Apt 5 San Francisco, CA, 230903</span>
+        </li>
+        <li class="footer-list-item">
+          <h2 class="footer-primary-title">New York, NY</h2>
+          <p>
+            Wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+            suscipit lobortis nisl ut aliquip ex commodo consequat. Autem vel
+            hendrerit iriure dolor in hendrerit.
+          </p>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="build/js/main.min.js"></script>
+  </body>
+</html>
